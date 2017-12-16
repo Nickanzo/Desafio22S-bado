@@ -12,3 +12,4 @@ public class Boot
       SpringApplication.run(Boot.class, args);
    }
 }
+	

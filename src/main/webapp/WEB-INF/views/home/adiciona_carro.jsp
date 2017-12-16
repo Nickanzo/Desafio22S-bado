@@ -21,7 +21,6 @@
 		Ano: <input	type="number" name="ano" placeholder="1970" min="1678" max="2019"/><br />
 		<input type="submit" value="Salvar" />
 	</form>
-	
 
 	<c:import url="footer.jsp" />
 </body>
