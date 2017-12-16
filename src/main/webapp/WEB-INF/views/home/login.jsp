@@ -12,8 +12,8 @@
 
     <p>Criar uma lógica para fazer o crud de carros</p>
 
-    <p>Primeiro Pull Request ganha um prêmio de Natal !</p>
+    <p>Primeiro Pull Request ganha um prêmio de Natal!</p>
 
-    <p>Precisa estar funcional e bonito</p>
+    <p>Precisa estar funcional e bonito c:</p>
 </body>
 </html>
