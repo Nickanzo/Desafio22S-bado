@@ -10,14 +10,17 @@
 <body>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
-<c:import url="header.jsp"/>
-    <h1>Meus Carros</h1>
+    <h1>Adiciona Carro</h1>
+    
+    <form action="adicionaCarro" method="post">
+    	Dono: <input type="text" name="nome" /><br/>
+    	Modelo: <input type="text" name="modelo" /><br/>
+    	Placa: <input type="text" name="letras" size="5" maxlength="3" /> 
+    		- <input type="number" name="numeros" size="6" maxlength="4"/> <br/>
+    	Ano: <input type="text" name="ano" /><br/>
+    	<input type="submit" value="Salvar"/>
+    </form>
 
-    <p>Criar uma lógica para fazer o crud de carros</p>
-
-    <p>Primeiro Pull Request ganha um prêmio de Natal!</p>
-
-    <p>Precisa estar funcional e bonito c:</p>
 <c:import url="footer.jsp"/>
 </body>
 </html>
